@@ -679,18 +679,14 @@ module.exports = function (webpackEnv) {
             "content_scripts": [
               {
                 "matches": [
-                  "https://www.baidu.com/*",
-                  "http://127.0.0.1:8080/*",
-                  "https://www.fashionnova.com/collections/new"
+                  "https://us.shein.com/us/us/recommend/*"
                 ],
                 "js": ["js/inject.js"],
                 "run_at": "document_start"
               },
               {
                 "matches": [
-                  "https://www.baidu.com/*",
-                  "http://127.0.0.1:8080/*",
-                  "https://www.fashionnova.com/collections/new"
+                  "https://us.shein.com/us/us/recommend/*"
                 ],
                 "css": cssEntry,
                 "js": jsEntry

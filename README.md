@@ -1,7 +1,12 @@
-如何使用？
+# HighPriceAndLowPrice
 
-1. 打开谷歌浏览器，输入 **chrome://extensions**
-2. 点击加载已解压的拓展程序
-3. 选择项目中的 **build** 目录
-4. 打开浏览器访问 [https://www.fashionnova.com/collections/new](https://www.fashionnova.com/collections/new)
-5. 点击菜单栏中蓝色饼状图查看效果
+This plugin only for demo purpose.
+
+## Getting Started
+
+1. Clone the repo (`git clone https://github.com/luckyJeffy/SHEIN-HighPriceAndLowPrice`)
+2. Open Google Chrome and enter **chrome://extensions**
+3. Click to load the decompressed extension
+4. Select the **build** directory in the project
+5. Open the browser and visit [https://us.shein.com/us/us/recommend/Women-Clothing-sc-100205690.html](https://us.shein.com/us/us/recommend/Women-Clothing-sc-100205690.html)
+6. Wait for the SHEIN page document ready, then click the plugin 'HighPriceAndLowPrice' to get the result

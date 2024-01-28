@@ -20,9 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.baidu.com/*",
-        "http://127.0.0.1:8080/*",
-        "https://www.fashionnova.com/collections/new"
+        "https://us.shein.com/us/us/recommend/*"
       ],
       "js": [
         "js/inject.js"
@@ -31,15 +29,13 @@
     },
     {
       "matches": [
-        "https://www.baidu.com/*",
-        "http://127.0.0.1:8080/*",
-        "https://www.fashionnova.com/collections/new"
+        "https://us.shein.com/us/us/recommend/*"
       ],
       "css": [
         "static/css/main.28c773de.css"
       ],
       "js": [
-        "static/js/main.6782dec5.js"
+        "static/js/main.75159010.js"
       ]
     }
   ],

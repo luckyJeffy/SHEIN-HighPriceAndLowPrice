@@ -12,24 +12,24 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "browser_action": {},
   "content_scripts": [
     {
       "matches": [
-        "https://www.baidu.com/*",
-        "http://127.0.0.1:8080/*",
-        "https://www.fashionnova.com/collections/new/*"
+        "https://us.shein.com/us/us/recommend/*"
       ],
-      "js": ["js/inject.js"],
+      "js": [
+        "js/inject.js"
+      ],
       "run_at": "document_start"
     },
     {
       "matches": [
-        "https://www.baidu.com/*",
-        "http://127.0.0.1:8080/*",
-        "https://www.fashionnova.com/collections/new/*"
+        "https://us.shein.com/us/us/recommend/*"
       ],
       "css": [
         "static/css/main.28c773de.css"
@@ -39,5 +39,7 @@
       ]
     }
   ],
-  "web_accessible_resources": ["js/define-postman.js"]
+  "web_accessible_resources": [
+    "js/define-postman.js"
+  ]
 }
